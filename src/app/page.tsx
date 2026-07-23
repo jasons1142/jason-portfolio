@@ -9,7 +9,7 @@ export default function Home() {
     <div className="min-h-screen w-full bg-zinc-50 font-sans dark:bg-black">
     <Navbar />
 
-    <main className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-10">
+    <main className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-10 pt-24">
 
       <div className="flex w-full flex-col items-center gap-8 py-12 md:flex-row md:justify-between">
         <div className="max-w-xl">

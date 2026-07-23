@@ -8,7 +8,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className="sticky top-0 z-50 flex w-full items-center justify-between border-b px-4 py-3 min-h-24">
+        <nav className="fixed top-0 z-50 flex w-full items-center justify-between border-b px-4 py-3 min-h-24 bg-green-100 text-black">
             <Link href="/" onClick={() => setOpen(false)}>
                 Home
             </Link>
