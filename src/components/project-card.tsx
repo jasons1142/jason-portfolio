@@ -10,7 +10,7 @@ type Project = {
     project: Project;
   }) {
     return (
-      <div className="rounded-xl border p-6">
+      <div className="rounded-xl border p-6 w-100 h-50">
         <h2 className="text-2xl font-bold">
           {project.title}
         </h2>
@@ -23,7 +23,7 @@ type Project = {
           {project.technologies.map((tech) => (
             <span
               key={tech}
-              className="rounded bg-gray-100 px-2 py-1 text-sm"
+              className="rounded px-2 py-1 text-sm"
             >
               {tech}
             </span>

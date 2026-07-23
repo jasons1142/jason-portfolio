@@ -8,7 +8,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav>
+        <nav className="sticky top-0 z-50 flex w-full items-center justify-between border-b px-4 py-3 min-h-24">
             <Link href="/" onClick={() => setOpen(false)}>
                 Home
             </Link>
@@ -17,16 +17,12 @@ export default function Navbar() {
                 Projects
             </Link>
 
-            <Link href="/experience" onClick={() => setOpen(false)}>
-                Experience
-            </Link>
-
-            <Link href="/skills" onClick={() => setOpen(false)}>
-                Skills
-            </Link>
-
             <Link href="/about" onClick={() => setOpen(false)}>
                 About
+            </Link>
+
+            <Link href="/resume" onClick={() => setOpen(false)}>
+                Resume
             </Link>
 
             <Link href="/contact" onClick={() => setOpen(false)}>
